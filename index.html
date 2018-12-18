@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My first site</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Random Project Group Generator</h1>
+  <div class="container">
+    <div class="wrap alt">
+      <p class="toggle-wrap">Number of People per group <a class="choice" href="#choice"><strong>TOGGLE</strong><span class="switch"></span></a> Number of Groups</p>
+      <p class="pergroup-wrap">Number of students per group: <input class="pergroup" type="integer" value="" /></p>
+      <p class="numgroups-wrap">Number of groups: <input class="numgroups" type="integer" value="" /></p>
+      <p>
+        <textarea name="students" id="students" cols="40" rows="15">
+          Hermione
+          Minerva
+          Bellatrix
+          Ginny
+          Molly
+          Lily
+          Angelina
+        </textarea></p>
+      <button>Make Groups</button>
+    </div>
+    <div class="image">
+      <img src="https://pbs.twimg.com/profile_images/914809291567255553/zFv2_bk4_400x400.jpg">
+    </div>
+  </div>
+  <div class="groups"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

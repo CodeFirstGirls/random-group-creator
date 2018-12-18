@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 17px;
+	padding: 1em;
+}
+
+.toggle-wrap a {
+  display: inline-block;
+  background: #444;
+  border-radius: 1000px;
+  position: relative;
+  width: 3em;
+  height: 1.25em;
+  vertical-align: middle;
+  margin: 0 0.5em;
+}
+.toggle-wrap strong {
+  display: none;
+}
+
+.switch {
+	position: absolute;
+	top: 0.1em;
+	left: 0.15em;
+	height: 1em;
+	width: 1.5em;
+	background: #fff;
+	border-radius: 1000px;
+	transition: 0.3s;
+}
+
+.alt .switch {
+  left: calc(100% - 1.6em);
+}
+
+.numgroups-wrap {
+	display: none;
+	
+}
+.alt .numgroups-wrap {
+  display: inherit;
+}
+
+.alt .pergroup-wrap {
+	display: none;
+}
+
+input, textarea, button {
+	font-size: 1em;
+	padding: 0.25em;
+}
+
+.groups {
+	padding: 1em;
+	background: #c22747;
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group {
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	padding: 1em;
+	margin: 0.25em;
+	width: 18%;
+	border-radius: 3px;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.1);
+}	
+.group h2 {
+  margin: 0;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.image {
+  padding: 120px 0 0 70px;
+}
